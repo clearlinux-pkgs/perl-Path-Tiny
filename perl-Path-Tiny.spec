@@ -4,7 +4,7 @@
 #
 Name     : perl-Path-Tiny
 Version  : 0.108
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.108.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.108.tar.gz
 Summary  : 'File path utility'
