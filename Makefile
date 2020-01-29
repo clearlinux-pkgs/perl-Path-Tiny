@@ -1,5 +1,5 @@
 PKG_NAME := perl-Path-Tiny
-URL = https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.110.tar.gz
+URL = https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
