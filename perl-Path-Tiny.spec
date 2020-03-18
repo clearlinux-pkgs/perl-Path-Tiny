@@ -4,10 +4,10 @@
 #
 Name     : perl-Path-Tiny
 Version  : 0.112
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz
-Summary  : File path utility
+Summary  : 'File path utility'
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: perl-Path-Tiny-license = %{version}-%{release}
@@ -26,7 +26,6 @@ use Path::Tiny;
 Summary: dev components for the perl-Path-Tiny package.
 Group: Development
 Provides: perl-Path-Tiny-devel = %{version}-%{release}
-Requires: perl-Path-Tiny = %{version}-%{release}
 Requires: perl-Path-Tiny = %{version}-%{release}
 
 %description dev
@@ -101,4 +100,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Path/Tiny.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Path/Tiny.pm
