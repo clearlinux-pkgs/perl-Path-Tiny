@@ -4,7 +4,7 @@
 #
 Name     : perl-Path-Tiny
 Version  : 0.114
-Release  : 19
+Release  : 20
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.114.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.114.tar.gz
 Summary  : 'File path utility'
@@ -100,4 +100,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Path/Tiny.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Path/Tiny.pm
